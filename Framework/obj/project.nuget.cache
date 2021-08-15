@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "MmJmWhRRrfMdQxEh4Qw021d7Dnk9oYHK/l/c8xFJMb9axqaKV2eTjeOdnaW5PrFvBYBlFL3dZs0xnOjVBbph4Q==",
-  "success": true,
-  "projectFilePath": "P:\\VisualStudio\\Study\\AllureNUnitTask\\Framework\\Framework.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "dgSpecHash": "Qo+I4mLlws501htQhWR+33DsH6Mq7gpZmIC8zUf6rAjSsXYztA3GV2V7eiQtLwHms+0eJGYlHFsuNTH1YK5GsA==",
+  "success": false,
+  "projectFilePath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\Framework\\Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kirill\\.nuget\\packages\\allure.commons\\3.5.0.65\\allure.commons.3.5.0.65.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\mimetypesmap\\1.0.8\\mimetypesmap.1.0.8.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.allure\\1.0.14\\nunit.allure.1.0.14.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: NUnit from 3.13.1 to 3.12.0. Reference the package directly from the project to select a different version. \r\n Framework -> NUnit.Allure 1.0.14 -> NUnit (>= 3.13.1) \r\n Framework -> NUnit (>= 3.12.0)",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7"
+      ]
+    }
+  ]
 }
